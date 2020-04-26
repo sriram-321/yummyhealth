@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "916924470323",
+    "firebase_url": "https://yummyhealth-709ef.firebaseio.com",
+    "project_id": "yummyhealth-709ef",
+    "storage_bucket": "yummyhealth-709ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:916924470323:android:8e002444033ec8237dbf46",
+        "android_client_info": {
+          "package_name": "com.example.yummyhealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "916924470323-3lhcmvd3rsadl5661mrciovokog8dv5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yummyhealth",
+            "certificate_hash": "8481498d744f894a6dbe670ac530e382491ef038"
+          }
+        },
+        {
+          "client_id": "916924470323-vluf3o0gntbmmfdh0lth31n33o77897g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0IWfxbliLHRdMOOsrvsDA4fQvkWRGYiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "916924470323-vluf3o0gntbmmfdh0lth31n33o77897g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RiderMapsActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RiderMapsActivity" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="450px"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#FF6E40"
+        android:padding="15dp"
+        app:cardElevation="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/PhoneNumber_TextView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Phone Number"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/Amount_TextView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Amount = xxx"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="end">
+
+                <TextView
+                    android:id="@+id/Distance_TextView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Distance = "
+                    android:textColor="@color/white"
+                    android:gravity="right"
+                    android:textSize="15dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="right"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/NavigationButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Start Navigation"
+                    android:layout_gravity="right"
+                    android:visibility="gone"/>
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/ActionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Accept Order"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/ActionButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Mark as Delivered"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</FrameLayout>
